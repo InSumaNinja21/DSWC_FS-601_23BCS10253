@@ -137,7 +137,7 @@ public class Main {
     public static void main(String[] args) {
         ManifestManager manager= new ManifestManager();
 
-        Passenger p1= new Passenger("P1001","Supriya", "India");
+        Passenger p1= new Passenger("P1001","Suman", "India");
         Passenger p2= new Passenger("P1002","Saksham", "India");
         Passenger p3= new Passenger("P1003","James", "USA");
         Passenger p4= new Passenger("P1004","Andrei", "Russia");
@@ -155,7 +155,7 @@ public class Main {
         manager.displayFlightRoster("AI202");
 
         // Search Passenger Flight
-        Passenger searchAlice = new Passenger("P1001","Supriya 1", "USA");
+        Passenger searchAlice = new Passenger("P1001","Suman 1", "USA");
 
         String flight = manager.locatePassengerFlight(searchAlice);
 
