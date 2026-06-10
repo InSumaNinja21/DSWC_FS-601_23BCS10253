@@ -74,7 +74,7 @@ public class Main {
     public static void main(String[] args) {
         TriageManager manager= new TriageManager();
 
-        manager.admitPatient(new Patient("Supriya", TriageLevel.STABLE, 1005));
+        manager.admitPatient(new Patient("Suman", TriageLevel.STABLE, 1005));
         manager.admitPatient(new Patient("Bob", TriageLevel.CRITICAL, 1001));
         manager.admitPatient(new Patient("Charlie", TriageLevel.URGENT, 1002));
         manager.admitPatient(new Patient("David", TriageLevel.CRITICAL, 1000));
